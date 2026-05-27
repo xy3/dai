@@ -177,7 +177,7 @@ func callCloudCodeAPI(ctx context.Context, instruction, accessToken, projectID s
 
 	body := map[string]interface{}{
 		"project":        projectID,
-		"model":          "gemini-2.5-flash",
+		"model":          "gemini-3.1-flash-lite-preview",
 		"user_prompt_id": promptID,
 		"request": map[string]interface{}{
 			"session_id": sessionID,
